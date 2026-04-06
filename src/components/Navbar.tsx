@@ -145,10 +145,10 @@ export default function Navbar() {
             ) : (
               <div className="flex items-center gap-2 ml-3">
                 <Button variant="outline" size="sm" onClick={() => navigate("/auth?role=driver")}>
-                  🚗 Driver Login
+                   Driver Login
                 </Button>
                 <Button size="sm" className="gradient-primary text-primary-foreground" onClick={() => navigate("/auth?role=rider")}>
-                  🚌 Rider Login
+                  Rider Login
                 </Button>
               </div>
             )}
@@ -200,10 +200,10 @@ export default function Navbar() {
             ) : (
               <div className="space-y-2">
                 <Button className="w-full gradient-primary text-primary-foreground" onClick={() => { setOpen(false); navigate("/auth?role=rider"); }}>
-                  🚌 Rider Login
+                   Rider Login
                 </Button>
                 <Button variant="outline" className="w-full" onClick={() => { setOpen(false); navigate("/auth?role=driver"); }}>
-                  🚗 Driver Login
+                   Driver Login
                 </Button>
               </div>
             )}

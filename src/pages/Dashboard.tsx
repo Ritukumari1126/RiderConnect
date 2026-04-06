@@ -94,7 +94,7 @@ export default function Dashboard() {
   return (
     <div className="py-8 space-y-8">
       <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-3xl font-bold">Welcome, {profile?.full_name || "User"}! 👋</h1>
+        <h1 className="text-3xl font-bold">Welcome, {profile?.full_name || "User"}! </h1>
         <p className="text-muted-foreground">Your {isDriver ? "Driver" : "Rider"} Dashboard
           {profile?.state && profile?.district && (
             <span className="ml-2 text-primary text-sm">📍 {profile.district}, {profile.state}</span>

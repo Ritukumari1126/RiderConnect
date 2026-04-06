@@ -56,10 +56,10 @@ export default function Index() {
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               <Button asChild size="lg" className="gradient-primary text-primary-foreground font-semibold px-8">
-                <Link to="/auth?role=rider">🚌 Rider Login <ArrowRight className="ml-2 w-4 h-4" /></Link>
+                <Link to="/auth?role=rider">Rider Login <ArrowRight className="ml-2 w-4 h-4" /></Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8">
-                <Link to="/auth?role=driver">🚗 Driver Login <ArrowRight className="ml-2 w-4 h-4" /></Link>
+                <Link to="/auth?role=driver">Driver Login <ArrowRight className="ml-2 w-4 h-4" /></Link>
               </Button>
             </div>
           </motion.div>
@@ -136,10 +136,10 @@ export default function Index() {
           <p className="text-muted-foreground mb-8">Join as a rider or driver and start using all features</p>
           <div className="flex justify-center gap-4">
             <Button asChild size="lg" className="gradient-primary text-primary-foreground px-8">
-              <Link to="/auth?role=rider">🚌 Join as Rider</Link>
+              <Link to="/auth?role=rider">Join as Rider</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="px-8">
-              <Link to="/auth?role=driver">🚗 Join as Driver</Link>
+              <Link to="/auth?role=driver">Join as Driver</Link>
             </Button>
           </div>
         </div>
